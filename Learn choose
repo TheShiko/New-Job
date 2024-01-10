@@ -1,0 +1,92 @@
+#include <stdio.h>
+#include <string.h>
+
+int Add(int x, int y)
+{
+	int z = 0;
+	z = x + y;
+	return z;
+}
+int main()
+{
+	int a = 10;
+	int b = 20;
+	int sum = Add(a, b);//（）是函数调用操作符
+	return 0;
+}
+
+//int main()
+//{
+//	int a = 100;
+//	int b = 20;
+//	int max = 0;
+//
+//	max = (a > b ? a : b);//三目操作符
+//	if (a > b)
+//		max = a;
+//	else
+//		max = b;
+//	return 0;
+//}
+
+//int main()
+//{
+//	int arr[10] = {1,2,3,4,5,6,7,8,9,10};//定义一个存放10个整数的数组
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		printf("%d", arr[i]);
+//		i++;
+//	}
+//	//printf("%d\n",arr[4]);//下标默认开始是1
+//	//写法是arr[下标];
+//	//char ch[20];
+//	//float arr2[5];
+//	return 0;
+//}
+
+//int Add(int x, int y)//自定义函数
+//{
+//	int z = x + y;
+//	return z;
+//}
+//int main()
+//{
+//	int num1 = 10;
+//	int num2 = 20;
+//	int sum = 0;
+//	int a = 100;
+//	int b = 200;
+//	sum = Add(num1, num2);
+//	sum = Add(a, b);
+//	printf("sum = %d\n", sum);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int line = 0;
+//	printf("进入寺庙\n");
+//
+//	while(line<2000)
+//	{
+//		printf("敲一下木鱼，功德+1: %d\n",line);
+//		line++;
+//	}
+//	if(line>=2000)
+//	printf("功德圆满\n");
+//	return 0;
+//}
+
+//int main()
+//{
+//	int input = 0;
+//	printf("命运的抉择\n");
+//	printf("你会跟程智萱一辈子吗？(1/0)>: ");
+//	scanf_s("%d", &input);
+//	if (input == 1)
+//		printf("往后余生，程智萱定不负你！\n");
+//	else
+//		printf("往后你将失去这世上最爱你的人\n");
+//	return 0;
+//}
